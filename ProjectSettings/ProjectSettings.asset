@@ -12,8 +12,13 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
+<<<<<<< HEAD
   companyName: Test
   productName: Tester
+=======
+  companyName: VRDG
+  productName: VR Demo
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -166,7 +171,11 @@ PlayerSettings:
   applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 1
+<<<<<<< HEAD
   AndroidMinSdkVersion: 24
+=======
+  AndroidMinSdkVersion: 19
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
@@ -666,8 +675,12 @@ PlayerSettings:
   scriptingRuntimeVersion: 1
   gcIncremental: 0
   gcWBarrierValidation: 0
+<<<<<<< HEAD
   apiCompatibilityLevelPerPlatform:
     Android: 3
+=======
+  apiCompatibilityLevelPerPlatform: {}
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_3D
@@ -728,7 +741,10 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+<<<<<<< HEAD
     Collab: 1
+=======
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
     UNet: 1
   luminIcon:
     m_Name: 
@@ -749,10 +765,17 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
+<<<<<<< HEAD
   cloudProjectId: 3114b4c9-7145-425b-8472-db8522cfa623
   framebufferDepthMemorylessMode: 0
   projectName: Blackhole
   organizationId: pyroder
+=======
+  cloudProjectId: 
+  framebufferDepthMemorylessMode: 0
+  projectName: 
+  organizationId: 
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

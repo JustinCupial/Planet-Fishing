@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1 &5774585407097146422
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +93,8 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.49999994
   m_Center: {x: 0, y: 0, z: 0.00000001490116}
+=======
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
 --- !u!1 &7836179033172840680
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,10 +121,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7836179033172840680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0.14532}
   m_LocalScale: {x: 0.70936, y: 0.70936, z: 0.70936}
   m_Children:
   - {fileID: 4394306540779774683}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0.2245}
+  m_LocalScale: {x: 0.70936, y: 0.70936, z: 0.55100244}
+  m_Children: []
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -173,8 +182,13 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
+<<<<<<< HEAD
         time: 0
         value: 1
+=======
+        time: 0.035442352
+        value: 0.40449524
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
         inSlope: 0
         outSlope: 0
         tangentMode: 0

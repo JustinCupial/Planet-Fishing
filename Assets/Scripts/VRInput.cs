@@ -22,13 +22,31 @@ public class VRInput : MonoBehaviour {
         {VRButton.LeftIndex, false}, {VRButton.RightIndex, false}
     };
     
+<<<<<<< HEAD
+=======
+    private static Dictionary<VRButton, bool> axisWasBeingHeld = new Dictionary<VRButton, bool>() {
+        {VRButton.LeftHand, false}, {VRButton.RightHand, false}, 
+        {VRButton.LeftIndex, false}, {VRButton.RightIndex, false}
+    };
+    
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
     #endregion
     
     //reset input flags
     private void Update() {
+<<<<<<< HEAD
         foreach (VRButton axis in axesThatAreButtons) 
             if (Input.GetAxisRaw(axis.ToString()) <= 0) //input axis not being recieved
                 axisAvailable[axis] = true; //next input should be unique - GetDown can be called
+=======
+        foreach (VRButton axis in axesThatAreButtons) {
+            if (Input.GetAxisRaw(axis.ToString()) <= 0) //input axis not being recieved
+                axisAvailable[axis] = true; //next input should be unique - GetDown can be called
+            else { //input is being recieved
+                axisWasBeingHeld[axis] = true; //next input should be unique - GetUp can be called
+            }
+        }
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
     }
     
     #region methods
@@ -97,9 +115,32 @@ public class VRInput : MonoBehaviour {
         VRButton vrButton = (VRButton)Enum.Parse(typeof(VRButton), handedness.ToString() + input.ToString());
         return GetDown(vrButton);
 
+<<<<<<< HEAD
         return false;
 
     }
+=======
+    }
+    
+    public static bool GetUp(VRButton input) {
+        
+        if (GetAxisRaw(input) <= 0) { //input not recieved
+            if (axisWasBeingHeld[input]) { //input is new (wasn't previously being held
+                axisWasBeingHeld[input] = false;
+                return true;
+            }
+        }
+
+        return false;
+
+    }
+    public static bool GetUp(GenericVRButton input, Handedness handedness) {
+
+        VRButton vrButton = (VRButton)Enum.Parse(typeof(VRButton), handedness.ToString() + input.ToString());
+        return GetUp(vrButton);
+
+    }
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
     
     #endregion
 

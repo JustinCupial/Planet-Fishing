@@ -20,6 +20,10 @@
           </e>
           <e p="Grabbable.cs" t="Include" />
           <e p="Grabber.cs" t="Include" />
+<<<<<<< HEAD
+=======
+          <e p="Gun.cs" t="Include" />
+>>>>>>> f89cec711f8f88f97a312da72abd9d6174ae9906
           <e p="Laser.cs" t="Include" />
           <e p="SnapEditor.cs" t="Include" />
           <e p="SnapOnGrab.cs" t="Include" />
