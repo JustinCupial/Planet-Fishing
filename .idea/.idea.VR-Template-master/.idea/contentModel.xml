@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Letha\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Letha\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_VR-Template-master.1361663153.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Letha\Desktop\VR\VR-Template-master" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemySpawner.cs" t="Include" />
+          <e p="ExtensionMethods" t="Include">
+            <e p="AudioSourceExtensions.cs" t="Include" />
+            <e p="FloatExtensions.cs" t="Include" />
+            <e p="IntExtensions.cs" t="Include" />
+            <e p="ListExtensions.cs" t="Include" />
+            <e p="MaterialExtensions.cs" t="Include" />
+            <e p="QuaternionExtensions.cs" t="Include" />
+            <e p="StringExtensions.cs" t="Include" />
+            <e p="TransformExtension.cs" t="Include" />
+            <e p="Vector3Extensions.cs" t="Include" />
+          </e>
+          <e p="Fishing.cs" t="Include" />
+          <e p="Grabbable.cs" t="Include" />
+          <e p="Grabber.cs" t="Include" />
+          <e p="Gun.cs" t="Include" />
+          <e p="Hook.cs" t="Include" />
+          <e p="Laser.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="QM_WaterProps.cs" t="Include" />
+          <e p="scoreManager.cs" t="Include" />
+          <e p="SnapEditor.cs" t="Include" />
+          <e p="SnapOnGrab.cs" t="Include" />
+          <e p="VRInput.cs" t="Include" />
+        </e>
+        <e p="Space Graphics Toolkit" t="Include">
+          <e p="Basic Pack" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="SgtBillboard.cs" t="Include" />
+              <e p="SgtCamera.cs" t="Include" />
+              <e p="SgtCameraLook.cs" t="Include" />
+              <e p="SgtCameraMove.cs" t="Include" />
+              <e p="SgtCameraState.cs" t="Include" />
+              <e p="SgtEditor.cs" t="Include" />
+              <e p="SgtFloatingCamera.cs" t="Include" />
+              <e p="SgtFloatingLight.cs" t="Include" />
+              <e p="SgtFloatingLod.cs" t="Include" />
+              <e p="SgtFloatingObject.cs" t="Include" />
+              <e p="SgtFloatingOrbit.cs" t="Include" />
+              <e p="SgtFloatingOrbitVisual.cs" t="Include" />
+              <e p="SgtFloatingOrigin.cs" t="Include" />
+              <e p="SgtFloatingPoint.cs" t="Include" />
+              <e p="SgtFloatingRoot.cs" t="Include" />
+              <e p="SgtFloatingScaler.cs" t="Include" />
+              <e p="SgtFloatingSpawner.cs" t="Include" />
+              <e p="SgtFloatingSpawnerOrbit.cs" t="Include" />
+              <e p="SgtFloatingSpawnerRing.cs" t="Include" />
+              <e p="SgtFloatingSpawnerSphere.cs" t="Include" />
+              <e p="SgtFloatingSpeedometer.cs" t="Include" />
+              <e p="SgtFloatingSwitcher.cs" t="Include" />
+              <e p="SgtFloatingTarget.cs" t="Include" />
+              <e p="SgtFloatingWarp.cs" t="Include" />
+              <e p="SgtFloatingWarpButton.cs" t="Include" />
+              <e p="SgtFloatingWarpPin.cs" t="Include" />
+              <e p="SgtFloatingWarpSmoothstep.cs" t="Include" />
+              <e p="SgtHelper.cs" t="Include" />
+              <e p="SgtHelper_Editor.cs" t="Include" />
+              <e p="SgtInputManager.cs" t="Include" />
+              <e p="SgtLength.cs" t="Include" />
+              <e p="SgtLinkedBehaviour.cs" t="Include" />
+              <e p="SgtPoolClass.cs" t="Include" />
+              <e p="SgtPoolComponent.cs" t="Include" />
+              <e p="SgtPoolObject.cs" t="Include" />
+              <e p="SgtPosition.cs" t="Include" />
+              <e p="SgtProceduralSpin.cs" t="Include" />
+              <e p="SgtSeed.cs" t="Include" />
+              <e p="SgtSpawnList.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="SGT Additive.shader" t="Include" />
+              <e p="SGT Depth.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Starfield Skybox" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Script" t="Include">
+              <e p="LookCamera.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="VR-Template-master.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
