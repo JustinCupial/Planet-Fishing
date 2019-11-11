@@ -7,11 +7,11 @@ using UnityEngine.UI;
 
 public class scoreManager : MonoBehaviour
 {
-    public Text highScore;
-    public Text gameScore;
+    public GUIText highScore;
+    public GUIText gameScore;
 
-    public float scoreCount;
-    public float highScoreCount;
+    public float scoreCount = 0f;
+    public float highScoreCount = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +22,7 @@ public class scoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //GetComponent<Canvas>;
         gameScore.text = ("Score: " + scoreCount);
         highScore.text = ("High Score: " + highScoreCount);
     }

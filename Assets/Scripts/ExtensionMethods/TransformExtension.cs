@@ -12,6 +12,11 @@ public static class TransformExtensions
     {
         return Vector3.Distance(source.position, target.position);
     }
+    
+    public static float Distance(this Transform source, Vector3 target)
+    {
+        return Vector3.Distance(source.position, target);
+    }
 
     public static float Distance(this Transform source, Vector3 target, Space? relativeTo) {
         if ((relativeTo ?? Space.World) == Space.World)

@@ -20,17 +20,17 @@
             <e p="TransformExtension.cs" t="Include" />
             <e p="Vector3Extensions.cs" t="Include" />
           </e>
-          <e p="Fishing.cs" t="Include" />
           <e p="Grabbable.cs" t="Include" />
           <e p="Grabber.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
           <e p="Hook.cs" t="Include" />
           <e p="Laser.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
-          <e p="QM_WaterProps.cs" t="Include" />
+          <e p="Rod.cs" t="Include" />
           <e p="scoreManager.cs" t="Include" />
           <e p="SnapEditor.cs" t="Include" />
           <e p="SnapOnGrab.cs" t="Include" />
+          <e p="UIFollow.cs" t="Include" />
           <e p="VRInput.cs" t="Include" />
         </e>
         <e p="Space Graphics Toolkit" t="Include">
@@ -90,6 +90,34 @@
             <e p="Script" t="Include">
               <e p="LookCamera.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>
